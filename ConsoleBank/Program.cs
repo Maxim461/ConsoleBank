@@ -14,7 +14,7 @@ class Program
         {
             for (int j = 0; j < CurrencyExchangeRate.GetLength(1); j++)
             {
-                CurrencyExchangeRate[i, j] = rnd.Next(100);
+                CurrencyExchangeRate[i, j] = rnd.Next(60, 100);
             }
         }
 
